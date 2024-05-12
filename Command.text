@@ -167,29 +167,29 @@ As part of this ticket I have to create File3.txt
 I have to commit the changes and push it
 Raise the Merge request 
 
-git branch
-git checkout -b TKT-10111 ( this command will create new branch on local)
-git branch
+1.  git branch
+2.  git checkout -b TKT-10111 ( this command will create new branch on local)
+3.  git branch
 
 
 
 Radiah has joined the project and she has to 
 
-clone the repo on her local repo
-Open new CMD
-git clone https://github.com/nicks204/TestProject.git
-cd TestProject
-Create a new branch for the story TKT-10112
-As part of this story she has to create File4.txt
-She has to commit the changes to TestProject
-She has to create a Merge request to master branch
+1.  clone the repo on her local repo
+2.  Open new CMD
+3   git clone https://github.com/nicks204/TestProject.git
+4.  cd TestProject
+5.  Create a new branch for the story TKT-10112
+6.  As part of this story she has to create File4.txt
+7.  She has to commit the changes to TestProject
+8.  She has to create a Merge request to master branch
 
 //============================================================
 
 Day-4
 
-Working with git from VS Code
-Create a new project/repository in GitHub
-Clone the project from GitHub to VS Code directly without using commands 
-Learn how to push the changes to GitHub from VS code
-How to work with different branches using VS code
+1. Working with git from VS Code
+2. Create a new project/repository in GitHub
+3. Clone the project from GitHub to VS Code directly without using commands 
+4. Learn how to push the changes to GitHub from VS code
+5.How to work with different branches using VS code
