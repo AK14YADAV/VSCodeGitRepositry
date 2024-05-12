@@ -1,0 +1,195 @@
+Automation Testing Master Program
+
+
+Phase-1 Agenda
+
+Understanding of Agile methodology  
+Testing in Agile world
+Git - Version controlling
+GitHub - to share and collaborate 
+SQL concepts - MySQL Db
+HTML and CSS
+Angular Framework for application dev
+Java Script language 
+Cypress automation tool
+Understanding of various locators 
+Phase End Project
+
+
+//==============================================
+
+Softwares to install (Linux, Windows and MAC)
+
+Git - 
+git --version
+Download from https://git-scm.com/downloads
+
+
+Visual Studio Code - 
+Download from https://code.visualstudio.com/download
+Open from start menu
+
+Node Js
+node --version
+Download from https://nodejs.org/en/download
+npm --version
+
+//=================================================
+
+Agile Methodology
+
+
+Build Software Like Amazon.com
+Total 120 Stories ( backlog)
+To complete the development in 6 months(180 days)
+In Agile there will be a small iteration of 15 days ( Sprint)
+Total you get 12 Iterations
+Each Iteration can cover 10 story 
+At the end of 12th iteration all the 120 stories will be completed
+
+
+Agile Team Roles
+
+Scrum master
+Product Owner
+BA/ Business Analyst 
+Tech Lead/ Arch
+Developer 
+Tester
+DevOps/Cloud Team
+Prod Support
+SRE Engineers 
+Designer 
+
+Agile Ceremonies 
+
+Stand up meeting / SU (15 mins)
+Iteration Planning Meeting (First day of iteration)
+Iteration or Sprint Review/ Demo
+Retrospective Meeting ( how to improve in next iteration)
+Refinement Meeting/ Grooming Meeting
+RCA Meeting (root cause analysis)
+Defect Triage 
+
+
+
+//=======================================
+
+Epic 
+
+
+One Epic can have multiple User Stories
+
+One user stories have multiple Task
+
+
+
+
+
+//=========================================
+
+Day-2
+
+STLC ( Software Testing Life Cycle) 
+
+Understand user stories / requirements
+Test Plan/Test Strategy 
+Prepare Manual Test Case
+Execute the TC in Test Env
+Raise a bug if the story is now delivered as per the acceptance criteria 
+New – > Rejected , Deferred
+Open/Active
+Fixed
+Retest
+Closed 
+Test Evidence Document and Sign Off
+
+//====================================================
+
+Sprint ( May 6 to May 17)
+Deliver 10 user stories 
+Dev team will start the development 
+Testers will start with TC design ( Planning) 
+Write Test Case (10 Test case)
+Link TC with user story
+Prepare Test Data
+Test the user story Manually once the developer has completed the Dev work
+In Sprint Automation
+Next Sprint Automation 
+
+
+//================================================
+
+Two Types of test cases we execute
+
+Test cases for the current sprint (New TC)
+Test cases for the past sprint (Regression TC)
+You might need to do the maintenance of existing TC
+
+
+
+
+
+Day -3
+
+//=====================================================
+
+Git Commands for the time in a new project
+
+Open command prompt
+cd <Project Location> (cd C:\Users\dell\Desktop\TestProject)
+git init
+git config --global user.name “Nik Shah”
+git config --global user.email “abc@xyz.com”
+git add File1.txt
+git commit -m "First Commit"
+git remote add origin https://github.com/nicks204/TestProject.git ( the repo link should be copied from github.com)
+git push origin master
+
+For the second time onwards in the same project
+
+cd <Project Location>
+git add .    ( . is used for adding all the files to git tracking)
+git commit -m "Second Commit"
+git push origin master
+
+
+
+//===============================================
+
+Git Branching
+
+git branch
+
+Lead is asking to work in ticket 
+TKT-10111
+As part of this ticket I have to create File3.txt
+I have to commit the changes and push it
+Raise the Merge request 
+
+git branch
+git checkout -b TKT-10111 ( this command will create new branch on local)
+git branch
+
+
+
+Radiah has joined the project and she has to 
+
+clone the repo on her local repo
+Open new CMD
+git clone https://github.com/nicks204/TestProject.git
+cd TestProject
+Create a new branch for the story TKT-10112
+As part of this story she has to create File4.txt
+She has to commit the changes to TestProject
+She has to create a Merge request to master branch
+
+//============================================================
+
+Day-4
+
+Working with git from VS Code
+Create a new project/repository in GitHub
+Clone the project from GitHub to VS Code directly without using commands 
+Learn how to push the changes to GitHub from VS code
+How to work with different branches using VS code
